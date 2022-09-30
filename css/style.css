@@ -1,0 +1,12 @@
+@import "./reset.css";
+@import "./background-video.css";
+@import "./component/nav-bar.css";
+body {
+  background-color: beige;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Noto Sans KR", sans-serif;
+}
