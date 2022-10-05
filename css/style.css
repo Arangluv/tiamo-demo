@@ -1,6 +1,7 @@
 @import "./reset.css";
 @import "./background-video.css";
 @import "./component/nav-bar.css";
+@import "./variable.css";
 body {
   background-color: beige;
   color: black;
@@ -9,4 +10,9 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.7);
   font-family: "Noto Sans KR", sans-serif;
+}
+
+.video-wrap {
+  position: fixed;
+  z-index: 1;
 }
