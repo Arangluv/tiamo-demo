@@ -5,6 +5,7 @@
 body {
   background-color: beige;
   color: black;
+  height: 1000vh;
 }
 a {
   text-decoration: none;
@@ -13,6 +14,7 @@ a {
 }
 
 .video-wrap {
-  position: fixed;
-  z-index: 1;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
 }

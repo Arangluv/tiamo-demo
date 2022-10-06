@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  position: fixed;
+  position: relative;
   height: 100px;
   top: 0px;
   width: 100vw;
@@ -10,7 +10,7 @@
   padding-top: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  z-index: 100;
+  z-index: 99;
   transition: background-color 0.3s ease-in-out;
 }
 
