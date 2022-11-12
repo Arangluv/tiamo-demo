@@ -3,7 +3,6 @@
 @import "./component/nav-bar.css";
 @import "./variable.css";
 body {
-  background-color: beige;
   color: black;
   height: 1000vh;
 }
@@ -16,5 +15,11 @@ a {
 .video-wrap {
   position: absolute;
   top: 0px;
+  z-index: 3;
+}
+.img-wrap img {
+  opacity: 0.1;
+  position: fixed;
+  top: 0;
   z-index: 0;
 }
